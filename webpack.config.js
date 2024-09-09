@@ -27,7 +27,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[hash].[ext]',
-              outputPath: 'images/', // This will put your images into a folder named `images` in the build output
+              outputPath: 'images/', // This will put images into a folder named `images` in the build output
               publicPath: 'images/', // Ensures Webpack can resolve the image path correctly
             },
           }

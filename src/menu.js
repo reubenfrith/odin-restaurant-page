@@ -1,9 +1,6 @@
 import bakery_goods_1 from './assets/bakery_goods_1.jpg'
 
 export default function home() {
-  // add content introducing a bakery
-  // clear content then add new content
-
   const content = document.getElementById("content")
   // clear content
   content.innerHTML = ""
@@ -15,7 +12,7 @@ export default function home() {
   ` 
   content.appendChild(bakery)
 
-  // insert image static/baker_goods_1.jpg
+  // insert image 
   const img1 = document.createElement("img")
   img1.src = bakery_goods_1
   content.appendChild(img1)
