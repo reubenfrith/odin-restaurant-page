@@ -1,0 +1,89 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Styling the header and navigation */
+header {
+  background-color: #ffbf00;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #ff7700;
+}
+
+/* Styling the main content */
+#content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#bakery h1 {
+  font-size: 36px;
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+#bakery p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Image styling */
+#content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #bakery h1 {
+    font-size: 28px;
+  }
+
+  #bakery p {
+    font-size: 16px;
+  }
+}
